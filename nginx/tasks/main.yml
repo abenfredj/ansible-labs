@@ -16,7 +16,7 @@
 - name: enable nginx
   service:
     name: nginx
-    state: enabled
+    state: started
   become: yes
 - name: deploy code source
   template:
